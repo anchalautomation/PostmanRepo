@@ -1,0 +1,84 @@
+{
+	"id": "35b4eb7f-e76c-46b4-b50f-b8f0c5e21cf6",
+	"name": "myCollection",
+	"timestamp": "2021-07-18T07:16:17.498Z",
+	"collection_id": "16649385-856746a6-5d70-462d-bf6c-b5c21bf32e63",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3fa3fab4-85ac-4ee2-a914-420b1c9af1d2",
+			"name": "delete",
+			"url": "https://reqres.in/api/users/2",
+			"time": 791,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				791
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4a22887-f59c-4cc3-b528-d6452239a0a5",
+			"name": "singleuser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				93
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "80f1cb39-2e40-4242-9500-67c52f414aa4",
+			"name": "googleSearch",
+			"url": "https://www.google.com/",
+			"time": 548,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				548
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1432,
+	"collection": {
+		"requests": [
+			{
+				"id": "3fa3fab4-85ac-4ee2-a914-420b1c9af1d2",
+				"method": "DELETE"
+			},
+			{
+				"id": "d4a22887-f59c-4cc3-b528-d6452239a0a5",
+				"method": "GET"
+			},
+			{
+				"id": "80f1cb39-2e40-4242-9500-67c52f414aa4",
+				"method": "GET"
+			}
+		]
+	}
+}
